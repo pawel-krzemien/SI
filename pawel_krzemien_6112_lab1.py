@@ -28,7 +28,7 @@ correlation = np.corrcoef (plot_data_1, plot_data_2)[0][1]
 print('korelacja {} do {} = {}'.format(currency_1, currency_2, correlation))
 
 # pkt.5 - wykres rysowany z wczesniej wczytanych kodów waluty.
-plt.plot(plot_data1, 'b--', plot_data2,'r--')
+plt.plot(plot_data_1, 'b--', plot_data_2,'r--')
 plt.title('Wykres wybranych walut')
 plt.ylabel('Kwota w złotówkach')
 plt.xlabel('Data')
